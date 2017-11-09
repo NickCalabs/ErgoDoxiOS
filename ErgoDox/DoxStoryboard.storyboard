@@ -497,19 +497,7 @@
                     <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
                     <size key="freeformSize" width="400" height="375"/>
                     <connections>
-                        <outlet property="leftThumbAlt" destination="8VF-xY-OxX" id="tOV-50-LBc"/>
-                        <outlet property="leftThumbBack" destination="8An-aD-6Hx" id="ulA-6d-z3p"/>
-                        <outlet property="leftThumbCtrl" destination="5yD-08-6DB" id="rCd-kA-aR9"/>
-                        <outlet property="leftThumbDel" destination="t7G-q3-jtj" id="oFg-4B-x2S"/>
-                        <outlet property="leftThumbEdit" destination="yjs-JO-FsG" id="NFw-My-eXH"/>
-                        <outlet property="leftThumbHome" destination="jls-r3-LFz" id="77T-cr-4rF"/>
                         <outlet property="leftThumbView" destination="yLh-uO-q02" id="vXb-2S-ezE"/>
-                        <outlet property="rightThumbAlt" destination="13k-Ga-RlI" id="b1X-Jt-Ksa"/>
-                        <outlet property="rightThumbCtrl" destination="KRh-DU-Os1" id="UWx-uG-MSb"/>
-                        <outlet property="rightThumbDown" destination="2PD-NU-GFK" id="ljk-7f-MDz"/>
-                        <outlet property="rightThumbReturn" destination="OPm-oY-Yw5" id="8vZ-Z8-Fah"/>
-                        <outlet property="rightThumbSpace" destination="IPz-gN-foJ" id="ulq-fb-qtu"/>
-                        <outlet property="rightThumbUp" destination="iPy-fL-Ef8" id="7Sc-i6-4iO"/>
                         <outlet property="rightThumbView" destination="4ye-gU-BYo" id="AWP-En-dKW"/>
                     </connections>
                 </viewController>

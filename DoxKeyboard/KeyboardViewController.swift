@@ -20,20 +20,6 @@ class KeyboardViewController: UIInputViewController {
     @IBOutlet weak var leftThumbView: UIView!
     @IBOutlet weak var rightThumbView: UIView!
     
-    @IBOutlet weak var leftThumbBack: UIButton!
-    @IBOutlet weak var leftThumbDel: UIButton!
-    @IBOutlet weak var leftThumbCtrl: UIButton!
-    @IBOutlet weak var leftThumbAlt: UIButton!
-    @IBOutlet weak var leftThumbHome: UIButton!
-    @IBOutlet weak var leftThumbEdit: UIButton!
-    
-    @IBOutlet weak var rightThumbSpace: UIButton!
-    @IBOutlet weak var rightThumbReturn: UIButton!
-    @IBOutlet weak var rightThumbCtrl: UIButton!
-    @IBOutlet weak var rightThumbAlt: UIButton!
-    @IBOutlet weak var rightThumbUp: UIButton!
-    @IBOutlet weak var rightThumbDown: UIButton!
-    
     override func viewDidLoad() {
         super.viewDidLoad()
         
