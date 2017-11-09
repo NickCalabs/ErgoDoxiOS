@@ -1,0 +1,659 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0198272C1FAFF03600C1B90E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0198272B1FAFF03600C1B90E /* AppDelegate.swift */; };
+		0198272E1FAFF03600C1B90E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0198272D1FAFF03600C1B90E /* ViewController.swift */; };
+		019827311FAFF03600C1B90E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0198272F1FAFF03600C1B90E /* Main.storyboard */; };
+		019827331FAFF03600C1B90E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 019827321FAFF03600C1B90E /* Assets.xcassets */; };
+		019827361FAFF03600C1B90E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 019827341FAFF03600C1B90E /* LaunchScreen.storyboard */; };
+		019827411FAFF03600C1B90E /* ErgoDoxTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 019827401FAFF03600C1B90E /* ErgoDoxTests.swift */; };
+		0198274C1FAFF03600C1B90E /* ErgoDoxUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0198274B1FAFF03600C1B90E /* ErgoDoxUITests.swift */; };
+		01F141B51FAFF33900302A8A /* KeyboardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01F141B41FAFF33900302A8A /* KeyboardViewController.swift */; };
+		01F141B91FAFF33900302A8A /* DoxKeyboard.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 01F141B21FAFF33900302A8A /* DoxKeyboard.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		01F141BF1FAFF37C00302A8A /* DoxStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 01F141BE1FAFF37C00302A8A /* DoxStoryboard.storyboard */; };
+		01F141C01FB01CFC00302A8A /* DoxStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 01F141BE1FAFF37C00302A8A /* DoxStoryboard.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		0198273D1FAFF03600C1B90E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 019827201FAFF03500C1B90E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 019827271FAFF03600C1B90E;
+			remoteInfo = ErgoDox;
+		};
+		019827481FAFF03600C1B90E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 019827201FAFF03500C1B90E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 019827271FAFF03600C1B90E;
+			remoteInfo = ErgoDox;
+		};
+		01F141B71FAFF33900302A8A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 019827201FAFF03500C1B90E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 01F141B11FAFF33900302A8A;
+			remoteInfo = DoxKeyboard;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		01F141BD1FAFF33900302A8A /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				01F141B91FAFF33900302A8A /* DoxKeyboard.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		019827281FAFF03600C1B90E /* ErgoDox.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ErgoDox.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		0198272B1FAFF03600C1B90E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		0198272D1FAFF03600C1B90E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		019827301FAFF03600C1B90E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		019827321FAFF03600C1B90E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		019827351FAFF03600C1B90E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		019827371FAFF03600C1B90E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0198273C1FAFF03600C1B90E /* ErgoDoxTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ErgoDoxTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		019827401FAFF03600C1B90E /* ErgoDoxTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ErgoDoxTests.swift; sourceTree = "<group>"; };
+		019827421FAFF03600C1B90E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		019827471FAFF03600C1B90E /* ErgoDoxUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ErgoDoxUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		0198274B1FAFF03600C1B90E /* ErgoDoxUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ErgoDoxUITests.swift; sourceTree = "<group>"; };
+		0198274D1FAFF03600C1B90E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		01F141B21FAFF33900302A8A /* DoxKeyboard.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = DoxKeyboard.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		01F141B41FAFF33900302A8A /* KeyboardViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeyboardViewController.swift; sourceTree = "<group>"; };
+		01F141B61FAFF33900302A8A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		01F141BE1FAFF37C00302A8A /* DoxStoryboard.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = DoxStoryboard.storyboard; path = ../ErgoDox/DoxStoryboard.storyboard; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		019827251FAFF03600C1B90E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		019827391FAFF03600C1B90E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		019827441FAFF03600C1B90E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		01F141AF1FAFF33900302A8A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0198271F1FAFF03500C1B90E = {
+			isa = PBXGroup;
+			children = (
+				0198272A1FAFF03600C1B90E /* ErgoDox */,
+				0198273F1FAFF03600C1B90E /* ErgoDoxTests */,
+				0198274A1FAFF03600C1B90E /* ErgoDoxUITests */,
+				01F141B31FAFF33900302A8A /* DoxKeyboard */,
+				019827291FAFF03600C1B90E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		019827291FAFF03600C1B90E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				019827281FAFF03600C1B90E /* ErgoDox.app */,
+				0198273C1FAFF03600C1B90E /* ErgoDoxTests.xctest */,
+				019827471FAFF03600C1B90E /* ErgoDoxUITests.xctest */,
+				01F141B21FAFF33900302A8A /* DoxKeyboard.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0198272A1FAFF03600C1B90E /* ErgoDox */ = {
+			isa = PBXGroup;
+			children = (
+				0198272B1FAFF03600C1B90E /* AppDelegate.swift */,
+				0198272D1FAFF03600C1B90E /* ViewController.swift */,
+				0198272F1FAFF03600C1B90E /* Main.storyboard */,
+				019827321FAFF03600C1B90E /* Assets.xcassets */,
+				019827341FAFF03600C1B90E /* LaunchScreen.storyboard */,
+				019827371FAFF03600C1B90E /* Info.plist */,
+			);
+			path = ErgoDox;
+			sourceTree = "<group>";
+		};
+		0198273F1FAFF03600C1B90E /* ErgoDoxTests */ = {
+			isa = PBXGroup;
+			children = (
+				019827401FAFF03600C1B90E /* ErgoDoxTests.swift */,
+				019827421FAFF03600C1B90E /* Info.plist */,
+			);
+			path = ErgoDoxTests;
+			sourceTree = "<group>";
+		};
+		0198274A1FAFF03600C1B90E /* ErgoDoxUITests */ = {
+			isa = PBXGroup;
+			children = (
+				0198274B1FAFF03600C1B90E /* ErgoDoxUITests.swift */,
+				0198274D1FAFF03600C1B90E /* Info.plist */,
+			);
+			path = ErgoDoxUITests;
+			sourceTree = "<group>";
+		};
+		01F141B31FAFF33900302A8A /* DoxKeyboard */ = {
+			isa = PBXGroup;
+			children = (
+				01F141BE1FAFF37C00302A8A /* DoxStoryboard.storyboard */,
+				01F141B41FAFF33900302A8A /* KeyboardViewController.swift */,
+				01F141B61FAFF33900302A8A /* Info.plist */,
+			);
+			path = DoxKeyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		019827271FAFF03600C1B90E /* ErgoDox */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 019827501FAFF03600C1B90E /* Build configuration list for PBXNativeTarget "ErgoDox" */;
+			buildPhases = (
+				019827241FAFF03600C1B90E /* Sources */,
+				019827251FAFF03600C1B90E /* Frameworks */,
+				019827261FAFF03600C1B90E /* Resources */,
+				01F141BD1FAFF33900302A8A /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				01F141B81FAFF33900302A8A /* PBXTargetDependency */,
+			);
+			name = ErgoDox;
+			productName = ErgoDox;
+			productReference = 019827281FAFF03600C1B90E /* ErgoDox.app */;
+			productType = "com.apple.product-type.application";
+		};
+		0198273B1FAFF03600C1B90E /* ErgoDoxTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 019827531FAFF03600C1B90E /* Build configuration list for PBXNativeTarget "ErgoDoxTests" */;
+			buildPhases = (
+				019827381FAFF03600C1B90E /* Sources */,
+				019827391FAFF03600C1B90E /* Frameworks */,
+				0198273A1FAFF03600C1B90E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0198273E1FAFF03600C1B90E /* PBXTargetDependency */,
+			);
+			name = ErgoDoxTests;
+			productName = ErgoDoxTests;
+			productReference = 0198273C1FAFF03600C1B90E /* ErgoDoxTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		019827461FAFF03600C1B90E /* ErgoDoxUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 019827561FAFF03600C1B90E /* Build configuration list for PBXNativeTarget "ErgoDoxUITests" */;
+			buildPhases = (
+				019827431FAFF03600C1B90E /* Sources */,
+				019827441FAFF03600C1B90E /* Frameworks */,
+				019827451FAFF03600C1B90E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				019827491FAFF03600C1B90E /* PBXTargetDependency */,
+			);
+			name = ErgoDoxUITests;
+			productName = ErgoDoxUITests;
+			productReference = 019827471FAFF03600C1B90E /* ErgoDoxUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+		01F141B11FAFF33900302A8A /* DoxKeyboard */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 01F141BC1FAFF33900302A8A /* Build configuration list for PBXNativeTarget "DoxKeyboard" */;
+			buildPhases = (
+				01F141AE1FAFF33900302A8A /* Sources */,
+				01F141AF1FAFF33900302A8A /* Frameworks */,
+				01F141B01FAFF33900302A8A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DoxKeyboard;
+			productName = DoxKeyboard;
+			productReference = 01F141B21FAFF33900302A8A /* DoxKeyboard.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		019827201FAFF03500C1B90E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = Nick;
+				TargetAttributes = {
+					019827271FAFF03600C1B90E = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Automatic;
+					};
+					0198273B1FAFF03600C1B90E = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 019827271FAFF03600C1B90E;
+					};
+					019827461FAFF03600C1B90E = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 019827271FAFF03600C1B90E;
+					};
+					01F141B11FAFF33900302A8A = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 019827231FAFF03500C1B90E /* Build configuration list for PBXProject "ErgoDox" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 0198271F1FAFF03500C1B90E;
+			productRefGroup = 019827291FAFF03600C1B90E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				019827271FAFF03600C1B90E /* ErgoDox */,
+				0198273B1FAFF03600C1B90E /* ErgoDoxTests */,
+				019827461FAFF03600C1B90E /* ErgoDoxUITests */,
+				01F141B11FAFF33900302A8A /* DoxKeyboard */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		019827261FAFF03600C1B90E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				019827361FAFF03600C1B90E /* LaunchScreen.storyboard in Resources */,
+				019827331FAFF03600C1B90E /* Assets.xcassets in Resources */,
+				019827311FAFF03600C1B90E /* Main.storyboard in Resources */,
+				01F141BF1FAFF37C00302A8A /* DoxStoryboard.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0198273A1FAFF03600C1B90E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		019827451FAFF03600C1B90E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		01F141B01FAFF33900302A8A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				01F141C01FB01CFC00302A8A /* DoxStoryboard.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		019827241FAFF03600C1B90E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0198272E1FAFF03600C1B90E /* ViewController.swift in Sources */,
+				0198272C1FAFF03600C1B90E /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		019827381FAFF03600C1B90E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				019827411FAFF03600C1B90E /* ErgoDoxTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		019827431FAFF03600C1B90E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0198274C1FAFF03600C1B90E /* ErgoDoxUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		01F141AE1FAFF33900302A8A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				01F141B51FAFF33900302A8A /* KeyboardViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		0198273E1FAFF03600C1B90E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 019827271FAFF03600C1B90E /* ErgoDox */;
+			targetProxy = 0198273D1FAFF03600C1B90E /* PBXContainerItemProxy */;
+		};
+		019827491FAFF03600C1B90E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 019827271FAFF03600C1B90E /* ErgoDox */;
+			targetProxy = 019827481FAFF03600C1B90E /* PBXContainerItemProxy */;
+		};
+		01F141B81FAFF33900302A8A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 01F141B11FAFF33900302A8A /* DoxKeyboard */;
+			targetProxy = 01F141B71FAFF33900302A8A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		0198272F1FAFF03600C1B90E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				019827301FAFF03600C1B90E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		019827341FAFF03600C1B90E /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				019827351FAFF03600C1B90E /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		0198274E1FAFF03600C1B90E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		0198274F1FAFF03600C1B90E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		019827511FAFF03600C1B90E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = ErgoDox/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.nickcalabro.ErgoDox;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		019827521FAFF03600C1B90E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = ErgoDox/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.nickcalabro.ErgoDox;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		019827541FAFF03600C1B90E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = ErgoDoxTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.nickcalabro.ErgoDoxTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ErgoDox.app/ErgoDox";
+			};
+			name = Debug;
+		};
+		019827551FAFF03600C1B90E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = ErgoDoxTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.nickcalabro.ErgoDoxTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ErgoDox.app/ErgoDox";
+			};
+			name = Release;
+		};
+		019827571FAFF03600C1B90E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = ErgoDoxUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.nickcalabro.ErgoDoxUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = ErgoDox;
+			};
+			name = Debug;
+		};
+		019827581FAFF03600C1B90E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = ErgoDoxUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.nickcalabro.ErgoDoxUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = ErgoDox;
+			};
+			name = Release;
+		};
+		01F141BA1FAFF33900302A8A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = DoxKeyboard/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.nickcalabro.ErgoDox.DoxKeyboard;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		01F141BB1FAFF33900302A8A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = DoxKeyboard/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.nickcalabro.ErgoDox.DoxKeyboard;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		019827231FAFF03500C1B90E /* Build configuration list for PBXProject "ErgoDox" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0198274E1FAFF03600C1B90E /* Debug */,
+				0198274F1FAFF03600C1B90E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		019827501FAFF03600C1B90E /* Build configuration list for PBXNativeTarget "ErgoDox" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				019827511FAFF03600C1B90E /* Debug */,
+				019827521FAFF03600C1B90E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		019827531FAFF03600C1B90E /* Build configuration list for PBXNativeTarget "ErgoDoxTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				019827541FAFF03600C1B90E /* Debug */,
+				019827551FAFF03600C1B90E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		019827561FAFF03600C1B90E /* Build configuration list for PBXNativeTarget "ErgoDoxUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				019827571FAFF03600C1B90E /* Debug */,
+				019827581FAFF03600C1B90E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		01F141BC1FAFF33900302A8A /* Build configuration list for PBXNativeTarget "DoxKeyboard" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				01F141BA1FAFF33900302A8A /* Debug */,
+				01F141BB1FAFF33900302A8A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 019827201FAFF03500C1B90E /* Project object */;
+}
