@@ -78,20 +78,8 @@ class KeyboardViewController: UIInputViewController {
     
     func rotateThumbs() {
         self.leftThumbView.transform = self.leftThumbView.transform.rotated(by: CGFloat(M_PI_2/2))
+        self.rightThumbView.transform = self.rightThumbView.transform.rotated(by: CGFloat(-M_PI_2/2))
         
-//        self.leftThumbBack.transform = self.leftThumbBack.transform.rotated(by: CGFloat(M_PI_2/2))
-//        self.leftThumbDel.transform = self.leftThumbDel.transform.rotated(by: CGFloat(M_PI_2/2))
-//        self.leftThumbCtrl.transform = self.leftThumbCtrl.transform.rotated(by: CGFloat(M_PI_2/2))
-//        self.leftThumbAlt.transform = self.leftThumbAlt.transform.rotated(by: CGFloat(M_PI_2/2))
-//        self.leftThumbHome.transform = self.leftThumbHome.transform.rotated(by: CGFloat(M_PI_2/2))
-//        self.leftThumbEdit.transform = self.leftThumbEdit.transform.rotated(by: CGFloat(M_PI_2/2))
-        
-        self.rightThumbSpace.transform = self.rightThumbSpace.transform.rotated(by: CGFloat(-M_PI_2/2))
-        self.rightThumbReturn.transform = self.rightThumbReturn.transform.rotated(by: CGFloat(-M_PI_2/2))
-        self.rightThumbCtrl.transform = self.rightThumbCtrl.transform.rotated(by: CGFloat(-M_PI_2/2))
-        self.rightThumbAlt.transform = self.rightThumbAlt.transform.rotated(by: CGFloat(-M_PI_2/2))
-        self.rightThumbUp.transform = self.rightThumbUp.transform.rotated(by: CGFloat(-M_PI_2/2))
-        self.rightThumbDown.transform = self.rightThumbDown.transform.rotated(by: CGFloat(-M_PI_2/2))
     }
 
 }
