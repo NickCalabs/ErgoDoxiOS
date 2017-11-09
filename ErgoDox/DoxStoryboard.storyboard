@@ -18,234 +18,318 @@
                         <viewControllerLayoutGuide type="bottom" id="egE-ZY-3Gh"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="CPf-zb-C9x">
-                        <rect key="frame" x="0.0" y="0.0" width="400" height="375"/>
+                        <rect key="frame" x="0.0" y="0.0" width="425" height="375"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="GVo-cF-BaJ">
-                                <rect key="frame" x="253" y="28" width="20" height="20"/>
+                                <rect key="frame" x="252" y="28" width="20" height="20"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="0.46837270259857178" green="0.83756530284881592" blue="0.76905602216720581" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <color key="tintColor" red="0.76263394005996166" green="0.20538743132250892" blue="0.94419425544399904" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <state key="normal" title="1"/>
+                                <connections>
+                                    <action selector="actuationWithSender:" destination="Je1-vO-hHM" eventType="touchUpInside" id="3Ku-6T-nel"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="6EN-ll-lQJ">
-                                <rect key="frame" x="253" y="56" width="20" height="35"/>
+                                <rect key="frame" x="252" y="56" width="20" height="35"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="0.46837270259857178" green="0.83756530284881592" blue="0.76905602216720581" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <color key="tintColor" red="0.76263394005996166" green="0.20538743132250892" blue="0.94419425544399904" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <state key="normal" title="["/>
+                                <connections>
+                                    <action selector="actuationWithSender:" destination="Je1-vO-hHM" eventType="touchUpInside" id="HfI-GX-upw"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ZSQ-0O-FO9">
-                                <rect key="frame" x="253" y="98" width="20" height="35"/>
+                                <rect key="frame" x="252" y="98" width="20" height="35"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="0.46837270259857178" green="0.83756530284881592" blue="0.76905602216720581" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <color key="tintColor" red="0.76263394005996166" green="0.20538743132250892" blue="0.94419425544399904" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Xmj-xY-RcU">
-                                <rect key="frame" x="275" y="28" width="20" height="20"/>
+                                <rect key="frame" x="274" y="28" width="20" height="20"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="0.46837270259857178" green="0.83756530284881592" blue="0.76905602216720581" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <color key="tintColor" red="0.76263394005996166" green="0.20538743132250892" blue="0.94419425544399904" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <state key="normal" title="6"/>
+                                <connections>
+                                    <action selector="actuationWithSender:" destination="Je1-vO-hHM" eventType="touchUpInside" id="EBt-H6-81r"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="kpg-y8-Pcz">
-                                <rect key="frame" x="275" y="56" width="20" height="20"/>
+                                <rect key="frame" x="274" y="56" width="20" height="20"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="0.46837270259857178" green="0.83756530284881592" blue="0.76905602216720581" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <color key="tintColor" red="0.76263394005996166" green="0.20538743132250892" blue="0.94419425544399904" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <state key="normal" title="y"/>
+                                <connections>
+                                    <action selector="actuationWithSender:" destination="Je1-vO-hHM" eventType="touchUpInside" id="HLx-ZU-Yi4"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="2GV-CU-R7J">
-                                <rect key="frame" x="275" y="85" width="20" height="20"/>
+                                <rect key="frame" x="274" y="85" width="20" height="20"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="0.46837270259857178" green="0.83756530284881592" blue="0.76905602216720581" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <color key="tintColor" red="0.76263394005996166" green="0.20538743132250892" blue="0.94419425544399904" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <state key="normal" title="h"/>
+                                <connections>
+                                    <action selector="actuationWithSender:" destination="Je1-vO-hHM" eventType="touchUpInside" id="A7R-pN-jOg"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Lls-Tn-Atk">
-                                <rect key="frame" x="275" y="113" width="20" height="20"/>
+                                <rect key="frame" x="274" y="113" width="20" height="20"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="0.46837270259857178" green="0.83756530284881592" blue="0.76905602216720581" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <color key="tintColor" red="0.76263394005996166" green="0.20538743132250892" blue="0.94419425544399904" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <state key="normal" title="n"/>
+                                <connections>
+                                    <action selector="actuationWithSender:" destination="Je1-vO-hHM" eventType="touchUpInside" id="xJp-7J-el2"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="pTT-c2-d0l">
-                                <rect key="frame" x="297" y="24" width="20" height="20"/>
+                                <rect key="frame" x="296" y="24" width="20" height="20"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="0.46837270259857178" green="0.83756530284881592" blue="0.76905602216720581" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <color key="tintColor" red="0.76263394005996166" green="0.20538743132250892" blue="0.94419425544399904" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <state key="normal" title="7"/>
+                                <connections>
+                                    <action selector="actuationWithSender:" destination="Je1-vO-hHM" eventType="touchUpInside" id="AOf-OT-wQg"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="iEb-Uk-7S3">
-                                <rect key="frame" x="297" y="52" width="20" height="20"/>
+                                <rect key="frame" x="296" y="52" width="20" height="20"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="0.46837270259857178" green="0.83756530284881592" blue="0.76905602216720581" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <color key="tintColor" red="0.76263394005996166" green="0.20538743132250892" blue="0.94419425544399904" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <state key="normal" title="u"/>
+                                <connections>
+                                    <action selector="actuationWithSender:" destination="Je1-vO-hHM" eventType="touchUpInside" id="AqT-OB-SDi"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="3jV-WL-Nau">
-                                <rect key="frame" x="297" y="81" width="20" height="20"/>
+                                <rect key="frame" x="296" y="81" width="20" height="20"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="0.46837270259857178" green="0.83756530284881592" blue="0.76905602216720581" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <color key="tintColor" red="0.76263394005996166" green="0.20538743132250892" blue="0.94419425544399904" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <state key="normal" title="j"/>
+                                <connections>
+                                    <action selector="actuationWithSender:" destination="Je1-vO-hHM" eventType="touchUpInside" id="WM6-Mo-ceG"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="mme-Kb-s99">
-                                <rect key="frame" x="297" y="109" width="20" height="20"/>
+                                <rect key="frame" x="296" y="109" width="20" height="20"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="0.46837270259857178" green="0.83756530284881592" blue="0.76905602216720581" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <color key="tintColor" red="0.76263394005996166" green="0.20538743132250892" blue="0.94419425544399904" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <state key="normal" title="m"/>
+                                <connections>
+                                    <action selector="actuationWithSender:" destination="Je1-vO-hHM" eventType="touchUpInside" id="ikf-QD-fFX"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cU0-H7-WyX">
-                                <rect key="frame" x="297" y="137" width="20" height="20"/>
+                                <rect key="frame" x="296" y="137" width="20" height="20"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="0.46837270259857178" green="0.83756530284881592" blue="0.76905602216720581" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <color key="tintColor" red="0.76263394005996166" green="0.20538743132250892" blue="0.94419425544399904" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <state key="normal" title="←"/>
+                                <connections>
+                                    <action selector="moveLeft" destination="Je1-vO-hHM" eventType="touchUpInside" id="D8G-bq-oiQ"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="OGd-GG-WnO">
-                                <rect key="frame" x="319" y="19" width="20" height="20"/>
+                                <rect key="frame" x="318" y="19" width="20" height="20"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="0.46837270259857178" green="0.83756530284881592" blue="0.76905602216720581" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <color key="tintColor" red="0.76263394005996166" green="0.20538743132250892" blue="0.94419425544399904" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <state key="normal" title="8"/>
+                                <connections>
+                                    <action selector="actuationWithSender:" destination="Je1-vO-hHM" eventType="touchUpInside" id="Q9C-vN-b1R"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Vck-P8-L9H">
-                                <rect key="frame" x="319" y="47" width="20" height="20"/>
+                                <rect key="frame" x="318" y="47" width="20" height="20"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="0.46837270259857178" green="0.83756530284881592" blue="0.76905602216720581" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <color key="tintColor" red="0.76263394005996166" green="0.20538743132250892" blue="0.94419425544399904" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <state key="normal" title="i"/>
+                                <connections>
+                                    <action selector="actuationWithSender:" destination="Je1-vO-hHM" eventType="touchUpInside" id="HjZ-Kk-LQE"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="tes-WJ-cD5">
-                                <rect key="frame" x="319" y="76" width="20" height="20"/>
+                                <rect key="frame" x="318" y="76" width="20" height="20"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="0.46837270259857178" green="0.83756530284881592" blue="0.76905602216720581" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <color key="tintColor" red="0.76263394005996166" green="0.20538743132250892" blue="0.94419425544399904" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <state key="normal" title="k"/>
+                                <connections>
+                                    <action selector="actuationWithSender:" destination="Je1-vO-hHM" eventType="touchUpInside" id="oGx-GB-hUW"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="uFr-lr-RD3">
-                                <rect key="frame" x="319" y="104" width="20" height="20"/>
+                                <rect key="frame" x="318" y="104" width="20" height="20"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="0.46837270259857178" green="0.83756530284881592" blue="0.76905602216720581" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <color key="tintColor" red="0.76263394005996166" green="0.20538743132250892" blue="0.94419425544399904" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <state key="normal" title=","/>
+                                <connections>
+                                    <action selector="actuationWithSender:" destination="Je1-vO-hHM" eventType="touchUpInside" id="K4x-8u-xIT"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="V7s-QU-3W8">
-                                <rect key="frame" x="319" y="132" width="20" height="20"/>
+                                <rect key="frame" x="318" y="132" width="20" height="20"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="0.46837270259857178" green="0.83756530284881592" blue="0.76905602216720581" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <color key="tintColor" red="0.76263394005996166" green="0.20538743132250892" blue="0.94419425544399904" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <state key="normal" title="↓"/>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Jro-Xn-1d8">
-                                <rect key="frame" x="342" y="24" width="20" height="20"/>
+                                <rect key="frame" x="341" y="24" width="20" height="20"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="0.46837270259857178" green="0.83756530284881592" blue="0.76905602216720581" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <color key="tintColor" red="0.76263394005996166" green="0.20538743132250892" blue="0.94419425544399904" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <state key="normal" title="9"/>
+                                <connections>
+                                    <action selector="actuationWithSender:" destination="Je1-vO-hHM" eventType="touchUpInside" id="gQd-aa-ICk"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gyR-YJ-DUU">
-                                <rect key="frame" x="342" y="52" width="20" height="20"/>
+                                <rect key="frame" x="341" y="52" width="20" height="20"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="0.46837270259857178" green="0.83756530284881592" blue="0.76905602216720581" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <color key="tintColor" red="0.76263394005996166" green="0.20538743132250892" blue="0.94419425544399904" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <state key="normal" title="o"/>
+                                <connections>
+                                    <action selector="actuationWithSender:" destination="Je1-vO-hHM" eventType="touchUpInside" id="PtT-Wv-cCp"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="yzv-RH-G8w">
-                                <rect key="frame" x="342" y="81" width="20" height="20"/>
+                                <rect key="frame" x="341" y="81" width="20" height="20"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="0.46837270259857178" green="0.83756530284881592" blue="0.76905602216720581" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <color key="tintColor" red="0.76263394005996166" green="0.20538743132250892" blue="0.94419425544399904" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <state key="normal" title="l"/>
+                                <connections>
+                                    <action selector="actuationWithSender:" destination="Je1-vO-hHM" eventType="touchUpInside" id="Ewv-ca-fyS"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="33Y-K8-4k0">
-                                <rect key="frame" x="342" y="109" width="20" height="20"/>
+                                <rect key="frame" x="341" y="109" width="20" height="20"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="0.46837270259857178" green="0.83756530284881592" blue="0.76905602216720581" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <color key="tintColor" red="0.76263394005996166" green="0.20538743132250892" blue="0.94419425544399904" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <state key="normal" title="."/>
+                                <connections>
+                                    <action selector="actuationWithSender:" destination="Je1-vO-hHM" eventType="touchUpInside" id="rmT-We-w1L"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="9Om-6o-vxk">
-                                <rect key="frame" x="342" y="137" width="20" height="20"/>
+                                <rect key="frame" x="341" y="137" width="20" height="20"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="0.46837270259857178" green="0.83756530284881592" blue="0.76905602216720581" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <color key="tintColor" red="0.76263394005996166" green="0.20538743132250892" blue="0.94419425544399904" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <state key="normal" title="↑"/>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="2p9-KS-LXb">
-                                <rect key="frame" x="364" y="56" width="20" height="20"/>
+                                <rect key="frame" x="363" y="56" width="20" height="20"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="0.46837270259857178" green="0.83756530284881592" blue="0.76905602216720581" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <color key="tintColor" red="0.76263394005996166" green="0.20538743132250892" blue="0.94419425544399904" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <state key="normal" title="p"/>
+                                <connections>
+                                    <action selector="actuationWithSender:" destination="Je1-vO-hHM" eventType="touchUpInside" id="E1f-79-f3K"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ko1-Fu-4dT">
-                                <rect key="frame" x="364" y="85" width="20" height="20"/>
+                                <rect key="frame" x="363" y="85" width="20" height="20"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="0.46837270259857178" green="0.83756530284881592" blue="0.76905602216720581" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <color key="tintColor" red="0.76263394005996166" green="0.20538743132250892" blue="0.94419425544399904" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <state key="normal" title=";"/>
+                                <connections>
+                                    <action selector="actuationWithSender:" destination="Je1-vO-hHM" eventType="touchUpInside" id="XWT-a5-aFK"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="DR0-la-NKp">
-                                <rect key="frame" x="364" y="113" width="20" height="20"/>
+                                <rect key="frame" x="363" y="113" width="20" height="20"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="0.46837270259857178" green="0.83756530284881592" blue="0.76905602216720581" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <color key="tintColor" red="0.76263394005996166" green="0.20538743132250892" blue="0.94419425544399904" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <state key="normal" title="/"/>
+                                <connections>
+                                    <action selector="actuationWithSender:" destination="Je1-vO-hHM" eventType="touchUpInside" id="miI-Tf-8Sj"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="F5S-w3-CZs">
-                                <rect key="frame" x="364" y="141" width="20" height="20"/>
+                                <rect key="frame" x="363" y="141" width="20" height="20"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="0.46837270259857178" green="0.83756530284881592" blue="0.76905602216720581" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <color key="tintColor" red="0.76263394005996166" green="0.20538743132250892" blue="0.94419425544399904" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <state key="normal" title="→"/>
+                                <connections>
+                                    <action selector="moveRight" destination="Je1-vO-hHM" eventType="touchUpInside" id="6pl-7x-ag0"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="vvl-CZ-gfR">
-                                <rect key="frame" x="364" y="28" width="20" height="20"/>
+                                <rect key="frame" x="363" y="28" width="20" height="20"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="0.46837270259857178" green="0.83756530284881592" blue="0.76905602216720581" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <color key="tintColor" red="0.76263394005996166" green="0.20538743132250892" blue="0.94419425544399904" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <state key="normal" title="0"/>
+                                <connections>
+                                    <action selector="actuationWithSender:" destination="Je1-vO-hHM" eventType="touchUpInside" id="0vK-g8-xll"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="a8k-0k-QM2">
-                                <rect key="frame" x="386" y="28" width="25" height="20"/>
+                                <rect key="frame" x="385" y="28" width="25" height="20"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="0.46837270259857178" green="0.83756530284881592" blue="0.76905602216720581" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <color key="tintColor" red="0.76263394005996166" green="0.20538743132250892" blue="0.94419425544399904" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <state key="normal" title="-"/>
+                                <connections>
+                                    <action selector="actuationWithSender:" destination="Je1-vO-hHM" eventType="touchUpInside" id="qNg-yn-uER"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="xrn-QB-pIo">
-                                <rect key="frame" x="386" y="56" width="25" height="20"/>
+                                <rect key="frame" x="385" y="56" width="25" height="20"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="0.46837270259857178" green="0.83756530284881592" blue="0.76905602216720581" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <color key="tintColor" red="0.76263394005996166" green="0.20538743132250892" blue="0.94419425544399904" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <state key="normal" title="]"/>
+                                <connections>
+                                    <action selector="actuationWithSender:" destination="Je1-vO-hHM" eventType="touchUpInside" id="Mlm-I3-MBD"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="DLR-rq-FM2">
-                                <rect key="frame" x="386" y="86" width="25" height="20"/>
+                                <rect key="frame" x="385" y="86" width="25" height="20"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="0.46837270259857178" green="0.83756530284881592" blue="0.76905602216720581" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <color key="tintColor" red="0.76263394005996166" green="0.20538743132250892" blue="0.94419425544399904" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <state key="normal" title="'"/>
+                                <connections>
+                                    <action selector="actuationWithSender:" destination="Je1-vO-hHM" eventType="touchUpInside" id="7mU-Qg-XKm"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Oli-CC-a8I">
-                                <rect key="frame" x="386" y="114" width="25" height="20"/>
+                                <rect key="frame" x="385" y="114" width="25" height="20"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="0.46837270259857178" green="0.83756530284881592" blue="0.76905602216720581" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <color key="tintColor" red="0.76263394005996166" green="0.20538743132250892" blue="0.94419425544399904" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <state key="normal" title="⇧"/>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="vDZ-ns-goh">
-                                <rect key="frame" x="386" y="142" width="20" height="20"/>
+                                <rect key="frame" x="385" y="142" width="20" height="20"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="0.46837270259857178" green="0.83756530284881592" blue="0.76905602216720581" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <color key="tintColor" red="0.76263394005996166" green="0.20538743132250892" blue="0.94419425544399904" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <state key="normal" title="◉"/>
+                                <connections>
+                                    <action selector="hideBoard" destination="Je1-vO-hHM" eventType="touchUpInside" id="wYa-42-Od8"/>
+                                </connections>
                             </button>
                             <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="4ye-gU-BYo">
-                                <rect key="frame" x="214" y="132" width="79" height="79"/>
+                                <rect key="frame" x="213" y="134" width="79" height="79"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <subviews>
                                     <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="13k-Ga-RlI">
@@ -289,6 +373,9 @@
                                         <color key="backgroundColor" red="0.46837270259857178" green="0.83756530284881592" blue="0.76905602216720581" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <color key="tintColor" red="0.76263394005996166" green="0.20538743132250892" blue="0.94419425544399904" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <state key="normal" title=" "/>
+                                        <connections>
+                                            <action selector="spaceActuate" destination="Je1-vO-hHM" eventType="touchUpInside" id="mCY-Dh-H5c"/>
+                                        </connections>
                                     </button>
                                 </subviews>
                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
@@ -299,6 +386,9 @@
                                 <color key="backgroundColor" red="0.46837270259857178" green="0.83756530284881592" blue="0.76905602216720581" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <color key="tintColor" red="0.76263394005996166" green="0.20538743132250892" blue="0.94419425544399904" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <state key="normal" title="q"/>
+                                <connections>
+                                    <action selector="actuationWithSender:" destination="Je1-vO-hHM" eventType="touchUpInside" id="jcz-fD-obD"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="z9M-hL-n7l">
                                 <rect key="frame" x="32" y="85" width="20" height="20"/>
@@ -306,6 +396,9 @@
                                 <color key="backgroundColor" red="0.46837270259857178" green="0.83756530284881592" blue="0.76905602216720581" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <color key="tintColor" red="0.76263394005996166" green="0.20538743132250892" blue="0.94419425544399904" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <state key="normal" title="a"/>
+                                <connections>
+                                    <action selector="actuationWithSender:" destination="Je1-vO-hHM" eventType="touchUpInside" id="hJA-Df-UJS"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Z2Z-CP-5iw">
                                 <rect key="frame" x="32" y="113" width="20" height="20"/>
@@ -313,6 +406,9 @@
                                 <color key="backgroundColor" red="0.46837270259857178" green="0.83756530284881592" blue="0.76905602216720581" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <color key="tintColor" red="0.76263394005996166" green="0.20538743132250892" blue="0.94419425544399904" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <state key="normal" title="z"/>
+                                <connections>
+                                    <action selector="actuationWithSender:" destination="Je1-vO-hHM" eventType="touchUpInside" id="NcR-12-Tiy"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="r74-98-07Q">
                                 <rect key="frame" x="32" y="141" width="20" height="20"/>
@@ -320,6 +416,9 @@
                                 <color key="backgroundColor" red="0.46837270259857178" green="0.83756530284881592" blue="0.76905602216720581" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <color key="tintColor" red="0.76263394005996166" green="0.20538743132250892" blue="0.94419425544399904" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <state key="normal" title="~"/>
+                                <connections>
+                                    <action selector="actuationWithSender:" destination="Je1-vO-hHM" eventType="touchUpInside" id="UyE-r3-S2X"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="R0U-Cw-tZu">
                                 <rect key="frame" x="54" y="25" width="20" height="20"/>
@@ -327,6 +426,9 @@
                                 <color key="backgroundColor" red="0.46837270259857178" green="0.83756530284881592" blue="0.76905602216720581" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <color key="tintColor" red="0.76263394005996166" green="0.20538743132250892" blue="0.94419425544399904" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <state key="normal" title="2"/>
+                                <connections>
+                                    <action selector="actuationWithSender:" destination="Je1-vO-hHM" eventType="touchUpInside" id="ezu-1j-TBK"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="4AQ-cT-29y">
                                 <rect key="frame" x="54" y="53" width="20" height="20"/>
@@ -334,6 +436,9 @@
                                 <color key="backgroundColor" red="0.46837270259857178" green="0.83756530284881592" blue="0.76905602216720581" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <color key="tintColor" red="0.76263394005996166" green="0.20538743132250892" blue="0.94419425544399904" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <state key="normal" title="w"/>
+                                <connections>
+                                    <action selector="actuationWithSender:" destination="Je1-vO-hHM" eventType="touchUpInside" id="Fda-4g-xRK"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0TD-fo-1ft">
                                 <rect key="frame" x="54" y="81" width="20" height="20"/>
@@ -341,6 +446,9 @@
                                 <color key="backgroundColor" red="0.46837270259857178" green="0.83756530284881592" blue="0.76905602216720581" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <color key="tintColor" red="0.76263394005996166" green="0.20538743132250892" blue="0.94419425544399904" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <state key="normal" title="s"/>
+                                <connections>
+                                    <action selector="actuationWithSender:" destination="Je1-vO-hHM" eventType="touchUpInside" id="mqj-Wi-ecn"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="HMH-Cx-8eg">
                                 <rect key="frame" x="54" y="109" width="20" height="20"/>
@@ -348,6 +456,9 @@
                                 <color key="backgroundColor" red="0.46837270259857178" green="0.83756530284881592" blue="0.76905602216720581" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <color key="tintColor" red="0.76263394005996166" green="0.20538743132250892" blue="0.94419425544399904" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <state key="normal" title="x"/>
+                                <connections>
+                                    <action selector="actuationWithSender:" destination="Je1-vO-hHM" eventType="touchUpInside" id="JHu-fI-vQu"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="HLq-Tn-AHw">
                                 <rect key="frame" x="54" y="137" width="20" height="20"/>
@@ -355,6 +466,9 @@
                                 <color key="backgroundColor" red="0.46837270259857178" green="0.83756530284881592" blue="0.76905602216720581" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <color key="tintColor" red="0.76263394005996166" green="0.20538743132250892" blue="0.94419425544399904" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <state key="normal" title="\"/>
+                                <connections>
+                                    <action selector="actuationWithSender:" destination="Je1-vO-hHM" eventType="touchUpInside" id="LZB-ap-gH7"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="CgT-7X-jzd">
                                 <rect key="frame" x="76" y="22" width="20" height="20"/>
@@ -362,6 +476,9 @@
                                 <color key="backgroundColor" red="0.46837270259857178" green="0.83756530284881592" blue="0.76905602216720581" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <color key="tintColor" red="0.76263394005996166" green="0.20538743132250892" blue="0.94419425544399904" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <state key="normal" title="3"/>
+                                <connections>
+                                    <action selector="actuationWithSender:" destination="Je1-vO-hHM" eventType="touchUpInside" id="e2J-I5-HVI"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="l7J-nR-Aph">
                                 <rect key="frame" x="76" y="50" width="20" height="20"/>
@@ -369,6 +486,9 @@
                                 <color key="backgroundColor" red="0.46837270259857178" green="0.83756530284881592" blue="0.76905602216720581" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <color key="tintColor" red="0.76263394005996166" green="0.20538743132250892" blue="0.94419425544399904" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <state key="normal" title="e"/>
+                                <connections>
+                                    <action selector="actuationWithSender:" destination="Je1-vO-hHM" eventType="touchUpInside" id="9dT-CT-aZJ"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="xgK-5G-fwT">
                                 <rect key="frame" x="76" y="78" width="20" height="20"/>
@@ -376,6 +496,9 @@
                                 <color key="backgroundColor" red="0.46837270259857178" green="0.83756530284881592" blue="0.76905602216720581" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <color key="tintColor" red="0.76263394005996166" green="0.20538743132250892" blue="0.94419425544399904" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <state key="normal" title="d"/>
+                                <connections>
+                                    <action selector="actuationWithSender:" destination="Je1-vO-hHM" eventType="touchUpInside" id="fJm-if-7yM"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="prS-0L-ecw">
                                 <rect key="frame" x="76" y="106" width="20" height="20"/>
@@ -383,6 +506,9 @@
                                 <color key="backgroundColor" red="0.46837270259857178" green="0.83756530284881592" blue="0.76905602216720581" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <color key="tintColor" red="0.76263394005996166" green="0.20538743132250892" blue="0.94419425544399904" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <state key="normal" title="c"/>
+                                <connections>
+                                    <action selector="actuationWithSender:" destination="Je1-vO-hHM" eventType="touchUpInside" id="8LY-h6-clj"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="p4z-id-7UX">
                                 <rect key="frame" x="76" y="134" width="20" height="20"/>
@@ -397,6 +523,9 @@
                                 <color key="backgroundColor" red="0.46837270259857178" green="0.83756530284881592" blue="0.76905602216720581" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <color key="tintColor" red="0.76263394005996166" green="0.20538743132250892" blue="0.94419425544399904" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <state key="normal" title="4"/>
+                                <connections>
+                                    <action selector="actuationWithSender:" destination="Je1-vO-hHM" eventType="touchUpInside" id="PL1-WP-An4"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="TVc-jb-tMr">
                                 <rect key="frame" x="98" y="53" width="20" height="20"/>
@@ -404,6 +533,9 @@
                                 <color key="backgroundColor" red="0.46837270259857178" green="0.83756530284881592" blue="0.76905602216720581" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <color key="tintColor" red="0.76263394005996166" green="0.20538743132250892" blue="0.94419425544399904" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <state key="normal" title="r"/>
+                                <connections>
+                                    <action selector="actuationWithSender:" destination="Je1-vO-hHM" eventType="touchUpInside" id="eXc-y3-Fup"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="FC1-mJ-7ZW">
                                 <rect key="frame" x="98" y="81" width="20" height="20"/>
@@ -411,6 +543,9 @@
                                 <color key="backgroundColor" red="0.46837270259857178" green="0.83756530284881592" blue="0.76905602216720581" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <color key="tintColor" red="0.76263394005996166" green="0.20538743132250892" blue="0.94419425544399904" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <state key="normal" title="f"/>
+                                <connections>
+                                    <action selector="actuationWithSender:" destination="Je1-vO-hHM" eventType="touchUpInside" id="U3U-GK-3Hf"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Jqd-GX-C2T">
                                 <rect key="frame" x="98" y="109" width="20" height="20"/>
@@ -418,6 +553,9 @@
                                 <color key="backgroundColor" red="0.46837270259857178" green="0.83756530284881592" blue="0.76905602216720581" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <color key="tintColor" red="0.76263394005996166" green="0.20538743132250892" blue="0.94419425544399904" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <state key="normal" title="v"/>
+                                <connections>
+                                    <action selector="actuationWithSender:" destination="Je1-vO-hHM" eventType="touchUpInside" id="NhA-4V-Squ"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="CPW-oj-Kf4">
                                 <rect key="frame" x="98" y="137" width="20" height="20"/>
@@ -432,6 +570,9 @@
                                 <color key="backgroundColor" red="0.46837270259857178" green="0.83756530284881592" blue="0.76905602216720581" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <color key="tintColor" red="0.76263394005996166" green="0.20538743132250892" blue="0.94419425544399904" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <state key="normal" title="5"/>
+                                <connections>
+                                    <action selector="actuationWithSender:" destination="Je1-vO-hHM" eventType="touchUpInside" id="DKM-Gd-6ue"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="6Ef-N1-jsu">
                                 <rect key="frame" x="120" y="56" width="20" height="20"/>
@@ -439,6 +580,9 @@
                                 <color key="backgroundColor" red="0.46837270259857178" green="0.83756530284881592" blue="0.76905602216720581" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <color key="tintColor" red="0.76263394005996166" green="0.20538743132250892" blue="0.94419425544399904" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <state key="normal" title="t"/>
+                                <connections>
+                                    <action selector="actuationWithSender:" destination="Je1-vO-hHM" eventType="touchUpInside" id="aQY-Xr-LgK"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Erk-Et-Nnj">
                                 <rect key="frame" x="120" y="84" width="20" height="20"/>
@@ -446,6 +590,9 @@
                                 <color key="backgroundColor" red="0.46837270259857178" green="0.83756530284881592" blue="0.76905602216720581" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <color key="tintColor" red="0.76263394005996166" green="0.20538743132250892" blue="0.94419425544399904" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <state key="normal" title="g"/>
+                                <connections>
+                                    <action selector="actuationWithSender:" destination="Je1-vO-hHM" eventType="touchUpInside" id="WgV-7B-bH9"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Ny9-eB-ZB9">
                                 <rect key="frame" x="120" y="112" width="20" height="20"/>
@@ -453,6 +600,9 @@
                                 <color key="backgroundColor" red="0.46837270259857178" green="0.83756530284881592" blue="0.76905602216720581" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <color key="tintColor" red="0.76263394005996166" green="0.20538743132250892" blue="0.94419425544399904" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <state key="normal" title="b"/>
+                                <connections>
+                                    <action selector="actuationWithSender:" destination="Je1-vO-hHM" eventType="touchUpInside" id="zZ2-bR-NRn"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="282-bQ-MSY">
                                 <rect key="frame" x="142" y="28" width="20" height="20"/>
@@ -460,6 +610,9 @@
                                 <color key="backgroundColor" red="0.46837270259857178" green="0.83756530284881592" blue="0.76905602216720581" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <color key="tintColor" red="0.76263394005996166" green="0.20538743132250892" blue="0.94419425544399904" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <state key="normal" title="✌︎"/>
+                                <connections>
+                                    <action selector="actuationWithSender:" destination="Je1-vO-hHM" eventType="touchUpInside" id="qCa-Wz-8BT"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="czW-xh-uGG">
                                 <rect key="frame" x="142" y="56" width="20" height="35"/>
@@ -467,6 +620,9 @@
                                 <color key="backgroundColor" red="0.46837270259857178" green="0.83756530284881592" blue="0.76905602216720581" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <color key="tintColor" red="0.76263394005996166" green="0.20538743132250892" blue="0.94419425544399904" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <state key="normal" title="✦"/>
+                                <connections>
+                                    <action selector="actuationWithSender:" destination="Je1-vO-hHM" eventType="touchUpInside" id="d7i-d3-BBV"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="PCA-hU-k48">
                                 <rect key="frame" x="142" y="97" width="20" height="35"/>
@@ -474,6 +630,9 @@
                                 <color key="backgroundColor" red="0.46837270259857178" green="0.83756530284881592" blue="0.76905602216720581" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <color key="tintColor" red="0.76263394005996166" green="0.20538743132250892" blue="0.94419425544399904" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <state key="normal" title="✧"/>
+                                <connections>
+                                    <action selector="actuationWithSender:" destination="Je1-vO-hHM" eventType="touchUpInside" id="zh3-Bh-Fvy"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="4Fx-5V-EhF">
                                 <rect key="frame" x="5" y="29" width="25" height="20"/>
@@ -481,6 +640,9 @@
                                 <color key="backgroundColor" red="0.46837270259857178" green="0.83756530284881592" blue="0.76905602216720581" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <color key="tintColor" red="0.76263394005996166" green="0.20538743132250892" blue="0.94419425544399904" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <state key="normal" title="+"/>
+                                <connections>
+                                    <action selector="actuationWithSender:" destination="Je1-vO-hHM" eventType="touchUpInside" id="cGO-AV-I1a"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="KcW-z3-2UV">
                                 <rect key="frame" x="5" y="57" width="25" height="20"/>
@@ -488,6 +650,9 @@
                                 <color key="backgroundColor" red="0.46837270259857178" green="0.83756530284881592" blue="0.76905602216720581" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <color key="tintColor" red="0.76263394005996166" green="0.20538743132250892" blue="0.94419425544399904" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <state key="normal" title="\"/>
+                                <connections>
+                                    <action selector="actuationWithSender:" destination="Je1-vO-hHM" eventType="touchUpInside" id="XmY-eP-S4x"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="5Zp-Xv-Ju8">
                                 <rect key="frame" x="5" y="85" width="25" height="20"/>
@@ -516,6 +681,9 @@
                                 <color key="backgroundColor" red="0.46837270259857178" green="0.83756530284881592" blue="0.76905602216720581" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <color key="tintColor" red="0.76263394005996166" green="0.20538743132250892" blue="0.94419425544399904" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <state key="normal" title="1"/>
+                                <connections>
+                                    <action selector="actuationWithSender:" destination="Je1-vO-hHM" eventType="touchUpInside" id="Z8L-l6-UKh"/>
+                                </connections>
                             </button>
                             <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="yLh-uO-q02">
                                 <rect key="frame" x="118" y="132" width="79" height="79"/>
@@ -527,6 +695,9 @@
                                         <color key="backgroundColor" red="0.46837270259857178" green="0.83756530284881592" blue="0.76905602216720581" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <color key="tintColor" red="0.76263394005996166" green="0.20538743132250892" blue="0.94419425544399904" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <state key="normal" title="⇍"/>
+                                        <connections>
+                                            <action selector="delete" destination="Je1-vO-hHM" eventType="touchUpInside" id="frg-RH-m8N"/>
+                                        </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="t7G-q3-jtj">
                                         <rect key="frame" x="27" y="30" width="20" height="40"/>
@@ -570,7 +741,7 @@
                         <color key="backgroundColor" red="0.95283776521682739" green="0.95300072431564331" blue="0.95282751321792603" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                     </view>
                     <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
-                    <size key="freeformSize" width="400" height="375"/>
+                    <size key="freeformSize" width="425" height="375"/>
                     <connections>
                         <outlet property="leftThumbView" destination="yLh-uO-q02" id="vXb-2S-ezE"/>
                         <outlet property="rightThumbView" destination="4ye-gU-BYo" id="AWP-En-dKW"/>

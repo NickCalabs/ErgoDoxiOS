@@ -40,6 +40,36 @@ class KeyboardViewController: UIInputViewController {
         self.nextKeyboardButton.bottomAnchor.constraint(equalTo: self.view.bottomAnchor).isActive = true
     }
     
+    @IBAction func actuation(sender: UIButton!) {
+        let typedChar = sender.titleLabel?.text
+        let proxy = textDocumentProxy as UITextDocumentProxy
+        proxy.insertText(typedChar!)
+    }
+    
+    @IBAction func spaceActuate() {
+        let proxy = textDocumentProxy as UITextDocumentProxy
+        proxy.insertText(" ")
+    }
+    
+    @IBAction func hideBoard() {
+        dismissKeyboard()
+    }
+    
+    @IBAction func delete() {
+        let proxy = textDocumentProxy as UITextDocumentProxy
+        proxy.deleteBackward()
+    }
+    
+    @IBAction func moveRight() {
+        let proxy = textDocumentProxy as UITextDocumentProxy
+        proxy.adjustTextPosition(byCharacterOffset: 1)
+    }
+    
+    @IBAction func moveLeft() {
+        let proxy = textDocumentProxy as UITextDocumentProxy
+        proxy.adjustTextPosition(byCharacterOffset: -1)
+    }
+    
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated
